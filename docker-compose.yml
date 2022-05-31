@@ -1,0 +1,8 @@
+version: "3.8"
+
+services:
+    sandbox:
+        build:
+            context: .
+        image: playwright
+        container_name: playwright-sandbox
